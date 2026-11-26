@@ -474,3 +474,85 @@ body {
     line-height: 1.6;
     color: gray;
 }
+.section6 {
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 90px 50px;
+}
+
+.hp {
+    width: 100%;
+}
+
+.hh2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.hh2 div {
+    width: 480px;
+}
+
+.hs {
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.hh2 h1 {
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.hh2 button {
+    background-color: orange;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+}
+
+.hb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.hc {
+    width: 300px;
+    padding: 30px 30px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hi {
+    width: 84px;
+    height: 84px;
+    background-color: #fef3c7;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hi img {
+    width: 36px;
+    height: 36px;
+}
+
+.hc h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.hc p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: gray;
+}
