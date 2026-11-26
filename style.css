@@ -176,23 +176,126 @@ body {
     background-color: #fdfaf5;
     border-bottom: 1px solid #f0ebe1;
 }
-
 .stat {
     text-align: center;
 }
-
 .number {
     font-size: 48px;
     font-weight: bold;
     color: #18181b;
     margin-bottom: 10px;
 }
-
 .number span {
     color: orange;
 }
-
 .stat p {
     font-size: 15px;
     color: gray;
+}
+.section3 {
+    display: flex;
+    gap: 35px;
+    padding: 90px 50px;
+    background-color: #fdfaf5;
+}
+
+.about1 {
+    width: 50%;
+}
+
+.about2 {
+    width: 50%;
+}
+
+.sub {
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about1 h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.desc {
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.pic1 {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.pic2 {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.pic3 {
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.pic1 img, .pic2 img, .pic3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+
+.about-btn button {
+    background-color: orange;
+    border: none;
+    padding: 15px 26px;
+    border-radius: 8px;
+    
+}
+
+.about-btn .btn2 {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.bottom {
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.check p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.check span {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin-right: 10px;
 }
