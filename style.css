@@ -303,3 +303,82 @@ body {
     padding: 3px 6px;
     margin-right: 10px;
 }
+.section4 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 90px 50px;
+    background-color: white;
+}
+
+.res1 {
+    width: 50%;
+}
+
+.res2 {
+    width: 50%;
+}
+
+.res-sub {
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.res1 h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+
+.res-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 24px;
+    margin-bottom: 40px;
+}
+
+.res-card {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.res-card img {
+    width: 54px;
+    height: 54px;
+    background-color: #fef3c7;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.res-card h2 {
+    font-size: 26px;
+    color: #18181b;
+}
+
+.res-card p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.res-btn {
+    background-color: orange;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.res2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 14px;
+}
