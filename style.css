@@ -382,3 +382,95 @@ body {
     display: block;
     border-radius: 14px;
 }
+.section5 {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+
+.top {
+    background-color: #fdd4a2;
+    height: 400px;
+    padding: 90px 50px 230px;
+    text-align: center;
+}
+
+.head {
+    width: 680px;
+    margin: auto;
+}
+
+.sub {
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.head h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btns button {
+    background-color: #18181b;
+    color: white;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+}
+
+.btns .btn2 {
+    background-color: white;
+    color: black;
+}
+
+.bottom {
+    padding: 0 50px 90px;
+}
+
+.box {
+    position: relative;
+    bottom: 370px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 14px solid white;
+    border-bottom: 14px solid white;
+    border-left: 22px solid orange;
+}
+
+.info {
+    display: flex;
+    gap: 60px;
+    margin-top: -200px;
+}
+
+.col {
+    width: 50%;
+}
+
+.col h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.col p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+}
