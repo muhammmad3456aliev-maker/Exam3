@@ -556,3 +556,109 @@ body {
     line-height: 1.6;
     color: gray;
 }
+.section7 {
+    background-color: #fdfaf5;
+    padding: 100px 50px;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.test1 {
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.test-img {
+    width: 88%;
+}
+
+.test-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+.test-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.07);
+}
+
+.quote {
+    font-size: 14px;
+    line-height: 1.6;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.test-card h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 13px;
+    color: gray;
+}
+
+.test2 {
+    width: 50%;
+}
+
+.sub7 {
+    color: orange;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.test2 h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.desc7 {
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+    margin-bottom: 26px;
+}
+
+.list7 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 36px;
+}
+
+.list7 p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list7 span {
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+
+.test2 button {
+    background-color: orange;
+    border: none;
+    padding: 16px 28px;
+    border-radius: 8px;
+}
